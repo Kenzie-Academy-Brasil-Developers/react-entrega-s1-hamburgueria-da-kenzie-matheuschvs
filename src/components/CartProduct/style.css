@@ -51,3 +51,9 @@
   align-self: flex-start;
   padding: 0;
 }
+
+@media only screen and (max-width: 385px) {
+  .cart-item__body {
+    max-width: 5.9375rem;
+  }
+}

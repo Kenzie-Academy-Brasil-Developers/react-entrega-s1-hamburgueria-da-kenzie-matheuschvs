@@ -23,6 +23,10 @@
   --body:      400 0.875rem 'Inter', sans-serif;
   --body-600:  600 0.875rem 'Inter', sans-serif;
   --caption:   400 0.75rem  'Inter', sans-serif;
+
+  /*
+  --max-mobile-width: 768px;
+  */
 }
 
 button {

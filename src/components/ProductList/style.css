@@ -25,3 +25,28 @@
   display: flex;
   overflow-x: auto;
 }
+
+@media only screen and (min-width: 1532px) {
+  .product-list {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .product-list-container {
+    grid-area: products;
+
+    padding-left: 7.1875rem;
+    max-width: 67vw;
+  }
+
+  .product-list:first-child {
+    margin-top: 2rem;
+  }
+
+  .product-list {
+    flex-wrap: wrap;
+    overflow-x: unset;
+    justify-content: space-around;
+  }
+}
