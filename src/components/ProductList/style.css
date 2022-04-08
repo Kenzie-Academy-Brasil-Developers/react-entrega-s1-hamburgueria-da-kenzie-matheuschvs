@@ -1,0 +1,27 @@
+.product-list-container {
+  padding: 0 0 1.25rem 1rem;
+}
+
+.search-result {
+  font: var(--heading-1);
+  color: var(--grey-600);
+  margin: 1.875rem 1rem 2.5rem 0;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.search-result__text {
+  color: var(--grey-300);
+  margin-left: 0.5rem;
+}
+
+.product-list:first-child {
+  margin-top: 0.9375rem;
+}
+
+.product-list {
+  display: flex;
+  overflow-x: auto;
+}
