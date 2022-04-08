@@ -26,12 +26,6 @@
   overflow-x: auto;
 }
 
-@media only screen and (min-width: 1532px) {
-  .product-list {
-    justify-content: space-between;
-  }
-}
-
 @media only screen and (min-width: 768px) {
   .product-list-container {
     grid-area: products;
@@ -48,5 +42,17 @@
     flex-wrap: wrap;
     overflow-x: unset;
     justify-content: space-around;
+  }
+}
+
+@media only screen and (min-width: 1532px) {
+  .product-list {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1795px) {
+  .product-list-container {
+    max-width: 60vw;
   }
 }
